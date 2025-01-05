@@ -4,7 +4,7 @@ import { useState } from 'react';
 import { useRouter } from 'next/navigation'; // Move useRouter inside the component
 
 import styles from './styles.module.scss';
-
+import Image from 'next/image';
 const Mobile = () => {
   const [expanded, setExpanded] = useState(false); // State to control navbar toggle
   const [activeLink, setActiveLink] = useState(''); // State to track active link
@@ -26,11 +26,12 @@ const Mobile = () => {
           <Container>
             {/* Logo on the left side */}
             <Navbar.Brand href="/">
-              <img
+              <Image
                 src="/images/logo/logo-light.png"
                 width="190"
                 className="d-inline-block align-top"
                 alt="Company logo"
+                height={500}
               />
             </Navbar.Brand>
 

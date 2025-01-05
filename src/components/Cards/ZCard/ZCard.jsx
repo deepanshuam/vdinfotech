@@ -1,13 +1,13 @@
 import React from 'react'
 import styles from './styles.module.scss'
 import BootStrapModal from "../../Modal";
-
+import Image from 'next/image';
 export default function ZCard() {
   return (
     <div className={styles.card_item}>
         <div className={styles.eff}>
             <div className={styles.client_image}>
-            <img src="/images/client-img.jpg" alt=""/>
+            <Image src="/images/client-img.jpg" alt="" height={500}/>
             <div className={styles.yt_logo}>
                 {/* <img src="/images/logo/yt.png" alt="" /> */}
             </div>

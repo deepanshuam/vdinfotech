@@ -3,7 +3,7 @@ import { Button, Container, Row, Col } from "react-bootstrap";
 import styles from "./styles.module.scss";
 import Link from "next/link";
 import { useState } from "react";
-
+import Image from "next/image";
 const Main = () => {
   const [activeMenu, setActiveMenu] = useState("");
   const [submenuVisible, setSubmenuVisible] = useState(false);
@@ -177,11 +177,12 @@ const Main = () => {
         <div className={styles.parent_row}>
           <div>
             <Link href={"/"}>
-              <img
+              <Image
                 src="/images/logo/logo-light.png"
                 width="190"
                 className="d-inline-block align-top"
                 alt="Company logo"
+                height={500}
               />
             </Link>
           </div>

@@ -19,6 +19,7 @@ import
 // styles
 import styles from "./styles.module.scss"
 import React from "react";
+import Image from "next/image";
 
 export default function Links() {
   return (
@@ -28,7 +29,7 @@ export default function Links() {
                 <ul key={link.heading}>
                     {
                         i === 0 ? (
-                            <img src="/images/logo/logo-light.png" alt="" />
+                            <Image src="/images/logo/logo-light.png" alt="" height={500}/>
                         ) :(
                             <b>{link.heading}</b>
                         )

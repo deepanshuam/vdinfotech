@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import styles from './styles.module.scss'
-
+import Image from 'next/image';
 // icons
 
 const HeroBanner = () => {
@@ -20,11 +20,12 @@ const HeroBanner = () => {
                             
                     </Col>
                     <Col xs={12} md={4} className="d-flex justify-content-center">
-                    <img
+                    <Image 
                         // src="/images/7th-year.png"
                         src="/images/bnr-img.png"
                         alt="Middle Column"
                         style={{ width: '100%', height: 'auto', maxWidth: '600px' }}
+                        height={500}
                     />
                     </Col>
                     <Col xs={0} md={4} className={`d-none d-md-flex justify-content-end ${styles.hero_banner__right}`}>

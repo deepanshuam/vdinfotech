@@ -5,13 +5,13 @@ import { PiDotsThreeOutlineFill, PiExport } from "react-icons/pi";
 import { FaLinkedinIn } from "react-icons/fa6";
 import { FaFacebookF, FaTwitter } from 'react-icons/fa';
 import Link from 'next/link';
-
+import Image from 'next/image';
 
 export default function ProfileCard() {
   return (
     <div className={styles.profile}>
       <div className={styles.profile_image}>
-        <img src="/images/ad.jpg" />
+        <Image src="/images/ad.jpg" />
       </div>
       <h2 className={styles.profile_username}>Harsh</h2>
       <small className={styles.profile_user_handle}>designer</small>
