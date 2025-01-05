@@ -1,5 +1,5 @@
-import React from 'react'
-import styles from './styles.module.scss'
+import React from 'react';
+import styles from './styles.module.scss';
 
 import { PiDotsThreeOutlineFill, PiExport } from "react-icons/pi";
 import { FaLinkedinIn } from "react-icons/fa6";
@@ -11,10 +11,11 @@ export default function ProfileCard() {
   return (
     <div className={styles.profile}>
       <div className={styles.profile_image}>
-        <Image src="/images/ad.jpg" />
+        {/* Added the alt prop with meaningful text */}
+        <Image src="/images/ad.jpg" alt="Profile image of Harsh" />
       </div>
       <h2 className={styles.profile_username}>Harsh</h2>
-      <small className={styles.profile_user_handle}>designer</small>
+      <small className={styles.profile_user_handle}>Designer</small>
       <div className={styles.profile_actions}>
         {/* <button className={`${styles.btn} ${styles.btn__primary}`}>Follow</button> */}
         {/* <button className={`${styles.btn} ${styles.btn__icon}`}>
@@ -36,5 +37,5 @@ export default function ProfileCard() {
         </Link>
       </div>
     </div>
-  )
+  );
 }
