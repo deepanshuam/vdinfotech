@@ -24,21 +24,21 @@ export default function HomePage() {
     const toolsweuse = {
       content:'At VD Infotech, we leverage the best digital marketing tools to ensure optimal performance for our clients. Our arsenal includes Google Analytics for in-depth data analysis and performance tracking. We utilize SEMrush and Ahrefs for keyword research and SEO insights, while Moz helps us enhance our overall digital marketing strategies. For PPC campaigns, we rely on Google AdWords to maximize ROI. We also use Meta for social media marketing and HubSpot for effective lead generation. Additionally, Mailchimp enables us to execute successful email marketing campaigns, driving engagement and conversions for your business.',
       images: [
-        {imageSrc:'./images/home/tools/b.png', alt:'tool image'},
-        {imageSrc:'./images/home/tools/s.png', alt:'tool image'},
-        {imageSrc:'./images/home/tools/corel.png', alt:'tool image'},
-        {imageSrc:'./images/home/tools/m.png', alt:'tool image'},
-        {imageSrc:'./images/home/tools/ga.webp', alt:'tool image'},
-        {imageSrc:'./images/home/tools/gt.png', alt:'tool image'},
-        {imageSrc:'./images/home/tools/h.png', alt:'tool image'},
-        {imageSrc:'./images/home/tools/a.png', alt:'tool image'},
-        {imageSrc:'./images/home/tools/moz.png', alt:'tool image'},
-        {imageSrc:'./images/home/tools/semrush.png', alt:'tool image'},
-        {imageSrc:'./images/home/tools/ai.png', alt:'tool image'},
-        {imageSrc:'./images/home/tools/ps.png', alt:'tool image'},
-        {imageSrc:'./images/home/tools/pr.png', alt:'tool image'},
-        {imageSrc:'./images/home/tools/us.png', alt:'tool image'},
-      ]
+        { imageSrc: '/images/home/tools/b.png', alt: 'tool image' },
+        { imageSrc: '/images/home/tools/s.png', alt: 'tool image' },
+        { imageSrc: '/images/home/tools/corel.png', alt: 'tool image' },
+        { imageSrc: '/images/home/tools/m.png', alt: 'tool image' },
+        { imageSrc: '/images/home/tools/ga.webp', alt: 'tool image' },
+        { imageSrc: '/images/home/tools/gt.png', alt: 'tool image' },
+        { imageSrc: '/images/home/tools/h.png', alt: 'tool image' },
+        { imageSrc: '/images/home/tools/a.png', alt: 'tool image' },
+        { imageSrc: '/images/home/tools/moz.png', alt: 'tool image' },
+        { imageSrc: '/images/home/tools/semrush.png', alt: 'tool image' },
+        { imageSrc: '/images/home/tools/ai.png', alt: 'tool image' },
+        { imageSrc: '/images/home/tools/ps.png', alt: 'tool image' },
+        { imageSrc: '/images/home/tools/pr.png', alt: 'tool image' },
+        { imageSrc: '/images/home/tools/us.png', alt: 'tool image' },
+      ],
     }
 
     // const {data:blogs, isError, isLoading} = useAllPosts();

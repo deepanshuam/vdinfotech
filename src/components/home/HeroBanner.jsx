@@ -26,6 +26,7 @@ const HeroBanner = () => {
                         alt="Middle Column"
                         style={{ width: '100%', height: 'auto', maxWidth: '600px' }}
                         height={500}
+                        width={600}
                     />
                     </Col>
                     <Col xs={0} md={4} className={`d-none d-md-flex justify-content-end ${styles.hero_banner__right}`}>

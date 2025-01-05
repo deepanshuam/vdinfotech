@@ -29,7 +29,7 @@ export default function Links() {
                 <ul key={link.heading}>
                     {
                         i === 0 ? (
-                            <Image src="/images/logo/logo-light.png" alt="" height={500}/>
+                            <Image src="/images/logo/logo-light.png" alt="" height={500} width={600}/>
                         ) :(
                             <b>{link.heading}</b>
                         )

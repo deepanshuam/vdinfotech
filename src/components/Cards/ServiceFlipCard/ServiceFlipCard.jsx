@@ -6,7 +6,7 @@ export default function ServiceFlipCard({serviceTitle, serviceContent, image}) {
     <div className={styles.d_card}>
         <div className={`position-relative ${styles.face} ${styles.front}`}>
           <div className={styles.card_image}>
-            <Image src={image} alt='' height={500} />
+            <Image src={image} alt='' height={500} width={600}/>
           </div>
           <p className={`text-center ${styles.user_profession}`}>
             {serviceTitle}

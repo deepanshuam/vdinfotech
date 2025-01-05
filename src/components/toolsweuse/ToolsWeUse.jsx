@@ -61,7 +61,7 @@ export default function ToolsWeUse({data}) {
                             {data.images && data.images.map((image, index)=>(
                                 <div key={index} className={styles.slide_item}>
                                     <li className='d-flex justify-content-center align-items-center'>
-                                        <Image src={image.imageSrc} alt={image.alt} className={styles.certificationLogo} height={500} />    
+                                        <Image src={image.imageSrc} alt={image.alt} className={styles.certificationLogo} height={500}  width={600} />    
                                     </li>
                                 </div>
                             ))}

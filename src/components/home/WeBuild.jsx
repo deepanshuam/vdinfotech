@@ -14,7 +14,7 @@ export default function WeBuild() {
                     Best Build Brands Company in India
                 </h3>
                 <p className='mt-1 text-center'>
-                    We don’t cut corners. We develop an elite SEO strategy using an all-encompassing approach. Success is obtained when we create a sustainable future for your website, achieving and surpassing your goals!
+                    We dont cut corners. We develop an elite SEO strategy using an all-encompassing approach. Success is obtained when we create a sustainable future for your website, achieving and surpassing your goals!
                 </p>
             </Row>
             <Row>

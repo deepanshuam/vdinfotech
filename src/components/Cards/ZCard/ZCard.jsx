@@ -7,7 +7,7 @@ export default function ZCard() {
     <div className={styles.card_item}>
         <div className={styles.eff}>
             <div className={styles.client_image}>
-            <Image src="/images/client-img.jpg" alt="" height={500}/>
+            <Image src="/images/client-img.jpg" alt="" height={500} width={600}/>
             <div className={styles.yt_logo}>
                 {/* <img src="/images/logo/yt.png" alt="" /> */}
             </div>

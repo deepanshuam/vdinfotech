@@ -18,7 +18,7 @@ export default function FlipCard() {
 
       <div className={`${styles.eff} ${styles.back}`}>
         <div>
-          <Image src='/images/logo/logo-dark.png' alt='' />
+          <Image src='/images/logo/logo-dark.png' alt='' width={600} height={500} />
         </div>
         <div className='d-flex justify-content-between'>
           <div className=''>
@@ -26,7 +26,7 @@ export default function FlipCard() {
             <p className={styles.user_profession}>(Software Developer)</p>
           </div>
           <div className={styles.client_back_image}>
-            <Image src='/images/ad.jpg' alt='' />
+            <Image src='/images/ad.jpg' alt='' width={600} height={500} />
           </div>
         </div>
         <div className='d-flex justify-content-center'>

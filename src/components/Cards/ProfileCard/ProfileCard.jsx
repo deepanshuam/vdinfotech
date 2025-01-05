@@ -12,7 +12,7 @@ export default function ProfileCard() {
     <div className={styles.profile}>
       <div className={styles.profile_image}>
         {/* Added the alt prop with meaningful text */}
-        <Image src="/images/ad.jpg" alt="Profile image of Harsh" />
+        <Image src="/images/ad.jpg" alt="Profile image of Harsh" width={600} height={500} />
       </div>
       <h2 className={styles.profile_username}>Harsh</h2>
       <small className={styles.profile_user_handle}>Designer</small>
