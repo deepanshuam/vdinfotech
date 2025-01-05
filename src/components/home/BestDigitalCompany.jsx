@@ -8,7 +8,7 @@ export default function BestDigitalCompany() {
     <section className={styles.best_company}>
       <Container className={styles.best_company__container}>
         <Row>
-          <h1>Best Digital Marketing Company in India for A1 Lead Generation</h1>
+          <h1>Best Digital Marketing Company in India</h1>
         </Row>
         <Row>
           <p>

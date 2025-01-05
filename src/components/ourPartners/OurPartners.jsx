@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row } from "react-bootstrap";
 import styles from "./styles.module.scss";
 import Slider from "react-slick/lib/slider";
-import Image from "next/image";
+// import Image from "next/image";
 export default function OurPartners() {
   var settings = {
     autoplay: true,
