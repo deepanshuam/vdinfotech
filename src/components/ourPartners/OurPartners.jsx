@@ -52,56 +52,51 @@ export default function OurPartners() {
           <Slider {...settings} className={` ${styles.tools_img}`}>
             <div className={styles.slide_item}>
               <li className="d-flex justify-content-center align-items-center">
-                <Image
+                <img
                   src="/images/new/yt.png"
                   alt="YouTube Certified"
                   className={styles.certificationLogo}
-                  height={500}
-                  width={600}
+                  
                 />
               </li>
             </div>
             <div className={styles.slide_item}>
               <li className="d-flex justify-content-center align-items-center">
-                <Image
+                <img
                   src="/images/new/moz.png"
                   alt="Bing Certified"
                   className={styles.certificationLogo}
-                  height={500}
-                  width={600}
+                  
                 />
               </li>
             </div>
             <div className={styles.slide_item}>
               <li className="d-flex justify-content-center align-items-center">
-                <Image
+                <img
                   src="/images/new/bing.png"
                   alt="Google AdWords Certified"
                   className={styles.certificationLogo}
-                  height={500}
-                  width={600}
+                 
                 />
               </li>
             </div>
             <div className={styles.slide_item}>
               <li className="d-flex justify-content-center align-items-center">
-                <Image
+                <img
                   src="/images/new/google.png"
                   alt="Google Analytics Certified"
                   className={styles.certificationLogo}
-                  height={500}
-                  width={600}
+                  
                 />
               </li>
             </div>
             <div className={styles.slide_item}>
               <li className="d-flex justify-content-center align-items-center">
-                <Image
+                <img
                   src="/images/new/ps.png"
                   alt="Google Analytics Certified"
                   className={styles.certificationLogo}
-                  height={500}
-                  width={600}
+                
                 />
               </li>
             </div>
