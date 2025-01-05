@@ -30,11 +30,11 @@ export default function Top() {
         <ul className={styles.top__contact}>
           <li>
             <FaEnvelope />
-            <span>info@vdinfotech.com</span>
+            <span>support@vdinfotech.in</span>
           </li>
           <li>
             <FaPhoneAlt />
-            <span>9988993645</span>
+            <span>920-573-1999</span>
           </li>
         </ul>
         <ul className={styles.top__list}>

@@ -53,7 +53,7 @@ export default function OurPartners() {
             <div className={styles.slide_item}>
               <li className="d-flex justify-content-center align-items-center">
                 <Image
-                  src="/images/certifications/yt.png"
+                  src="/images/new/yt.png"
                   alt="YouTube Certified"
                   className={styles.certificationLogo}
                   height={500}
@@ -64,7 +64,7 @@ export default function OurPartners() {
             <div className={styles.slide_item}>
               <li className="d-flex justify-content-center align-items-center">
                 <Image
-                  src="/images/certifications/facebook.png"
+                  src="/images/new/moz.png"
                   alt="Bing Certified"
                   className={styles.certificationLogo}
                   height={500}
@@ -75,7 +75,7 @@ export default function OurPartners() {
             <div className={styles.slide_item}>
               <li className="d-flex justify-content-center align-items-center">
                 <Image
-                  src="/images/certifications/bing.png"
+                  src="/images/new/bing.png"
                   alt="Google AdWords Certified"
                   className={styles.certificationLogo}
                   height={500}
@@ -86,7 +86,7 @@ export default function OurPartners() {
             <div className={styles.slide_item}>
               <li className="d-flex justify-content-center align-items-center">
                 <Image
-                  src="/images/certifications/google.ad.png"
+                  src="/images/new/google.png"
                   alt="Google Analytics Certified"
                   className={styles.certificationLogo}
                   height={500}
@@ -97,7 +97,7 @@ export default function OurPartners() {
             <div className={styles.slide_item}>
               <li className="d-flex justify-content-center align-items-center">
                 <Image
-                  src="/images/certifications/google-analytics.png"
+                  src="/images/new/ps.png"
                   alt="Google Analytics Certified"
                   className={styles.certificationLogo}
                   height={500}

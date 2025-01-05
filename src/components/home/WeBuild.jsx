@@ -48,7 +48,7 @@ export default function WeBuild() {
                         </div>
                         <div className={`d-flex align-items-center`}> 
                             <div>
-                                <Image width={200} src="/images/logo/logo-light.png" alt="" height={500} />
+                                <Image width={200} src="/images/logo/logo-light.png" alt="" height={30} />
                             </div>
                         </div>
                         <div className={styles.card}>

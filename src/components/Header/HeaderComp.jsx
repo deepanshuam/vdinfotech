@@ -82,7 +82,7 @@ const Main = () => {
         href: "/services/design-and-development/software-development",
       },
     ],
-    "vedio Production": [
+    "video Production": [
       {
         label: "Website Design",
         href: "/services/design-and-development/website-design",
@@ -262,7 +262,7 @@ const Main = () => {
                             className={styles.dropdown_items}
                             href={"/services/video-production"}
                           >
-                            Vedio Production
+                            Video Production
                           </Link>
                         </li>
                         <li
