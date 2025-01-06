@@ -31,7 +31,7 @@ const Mobile = () => {
                 width="190"
                 className="d-inline-block align-top"
                 alt="Company logo"
-                height={500}
+                height={30}
               />
             </Navbar.Brand>
 
