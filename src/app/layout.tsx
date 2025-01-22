@@ -1,4 +1,3 @@
-
 export default function RootLayout({
   children,
 }: {
@@ -8,8 +7,10 @@ export default function RootLayout({
     <html lang="en">
       <head>
         <meta charSet="utf-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <title>Best Digital Marketing Company in India for 360° Branding</title>
+        <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
+        <title>
+          Best Digital Marketing Company in India for 360° Branding
+        </title>
         <meta
           name="description"
           content="VD Infotech is the best digital marketing agency in India, offering comprehensive digital marketing services tailored to drive growth."
@@ -28,8 +29,14 @@ export default function RootLayout({
         <meta name="City" content="New Delhi" />
         <meta name="geo.position" content="28.6261582,77.3736699" />
         <meta name="ICBM" content="28.6261582,77.3736699" />
-        <meta name="address" content="B-06,Ananda Building,<br> Sector 63 Rd<br>Sector 63, <br>Noida, Uttar Pradesh, 201301 " />
-        <meta name="copyright" content="Copyright 2010-25 VD Infotech Pvt. Ltd. - The Best Digital Marketing Agency In India For Branding and Promotion " />
+        <meta
+          name="address"
+          content="B-06,Ananda Building, Sector 63 Rd Sector 63, Noida, Uttar Pradesh, 201301"
+        />
+        <meta
+          name="copyright"
+          content="Copyright 2010-25 VD Infotech Pvt. Ltd. - The Best Digital Marketing Agency In India For Branding and Promotion"
+        />
         <meta name="distribution" content="global" />
         <meta name="language" content="english" />
         <meta name="rating" content="general" />
@@ -42,8 +49,14 @@ export default function RootLayout({
         <meta name="generator" content="www.vdinfotech.in/" />
         <meta name="author" content="VD Infotech Pvt. Ltd." />
         <meta name="og:type" content="article" />
-        <meta name="og:title" content="Best Digital Marketing Agency in India, Top 5 SEO Company Delhi NCR" />
-        <meta name="og:image" content="https://www.vdinfotech.in/_next/image?url=%2Fimages%2Flogo%2Flogo-light.png&w=384&q=75" />
+        <meta
+          name="og:title"
+          content="Best Digital Marketing Agency in India, Top 5 SEO Company Delhi NCR"
+        />
+        <meta
+          name="og:image"
+          content="https://www.vdinfotech.in/_next/image?url=%2Fimages%2Flogo%2Flogo-light.png&w=384&q=75"
+        />
         <meta name="og:site_name" content="VD Infotech Pvt. Ltd." />
         <meta
           name="og:description"
@@ -87,7 +100,10 @@ export default function RootLayout({
         />
         <link rel="canonical" href="https://www.vdinfotech.in/" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="google-site-verification" content="VrovSJEAe6IgpQPce4HfroSZ-04RQNmgBdC5cAaAo-c" />
+        <meta
+          name="google-site-verification"
+          content="VrovSJEAe6IgpQPce4HfroSZ-04RQNmgBdC5cAaAo-c"
+        />
       </head>
       <body>{children}</body>
     </html>
