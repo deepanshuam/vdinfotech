@@ -43,7 +43,7 @@ export default function WeBuild() {
                                 Lead Generation
                             </h5>
                             <p>
-                                Webpulse employs a unique city-wise SEO technique to generate targeted leads.
+                                VD INFOTECH employs a unique city-wise SEO technique to generate targeted leads.
                             </p>
                         </div>
                         <div className={`d-flex align-items-center`}> 
