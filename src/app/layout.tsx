@@ -12,6 +12,8 @@ export default function RootLayout({
           Best Digital Marketing Company in India for 360° Branding
         </title>
         <meta
+
+  
           name="description"
           content="VD Infotech is the best digital marketing agency in India, offering comprehensive digital marketing services tailored to drive growth."
         />
