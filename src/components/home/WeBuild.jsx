@@ -43,12 +43,12 @@ export default function WeBuild() {
                                 Lead Generation
                             </h5>
                             <p>
-                                VD INFOTECH employs a unique city-wise SEO technique to generate targeted leads.
+                                VD Infotech employs a unique city-wise SEO technique to generate targeted leads.
                             </p>
                         </div>
                         <div className={`d-flex align-items-center`}> 
                             <div>
-                                <Image width={200} src="/images/logo/logo-light.png" alt="" height={30} />
+                                <Image width={200} src="/images/logo/logo-light.png" alt="" height={50} />
                             </div>
                         </div>
                         <div className={styles.card}>

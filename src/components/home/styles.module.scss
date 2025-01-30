@@ -16,6 +16,10 @@
             font-family: $font-montserrat;
             font-weight: 800;
             font-size: 58px;
+            color: transparent;
+            -webkit-text-stroke: 1.3px rgb(236, 229, 229); /* Add border to text */
+            text-shadow: none; 
+            font-size: 58px;
             svg{
                 fill: $theme-red-color;
             }
@@ -27,13 +31,15 @@
             font-family: $font-montserrat;
             font-size: 17px;
         }
-        h2{
-            display: flex;
+        h2{display: flex;
             text-align: start;
             font-family: $font-montserrat;
             font-weight: 800;
             display: flex;
             font-size: 58px;
+            color: transparent;
+            -webkit-text-stroke: 1px white; /* Add border to text */
+            text-shadow: none; 
             justify-content: end;
             svg{
                 fill: $theme-red-color;
